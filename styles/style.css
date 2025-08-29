@@ -44,3 +44,18 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+@media (max-width: 1200px) {
+    .nav{
+        flex-direction: column;
+        gap: 15px;
+    }
+    banner p{
+        text-align: center;
+        margin: auto;
+    }
+    main{
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+}
