@@ -3,18 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Emergency Hotline</title>
+    <title>Emergency Service</title>
+
+    <!-- google fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- connect css -->
+     <link rel="stylesheet" href="./styles/style.css">
+
+    <!-- daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
+<body class="bg-[#f5fff6]">
     <header>
-        <nav>
-            <div class="logo">
+        <nav class="flex justify-between items-center w-[90vw] mx-auto bg-white py-[24px]">
+            <div class="logo w-[195px] h-[50px] flex gap-2">
                 <img src="./assets/logo.png" alt="">
-                <h1></h1>
+                <h1 class="text-[#006747]  font-black text-[19px]">Emergency <br> Service</h1>
+            </div>
+            <div class="flex gap-3">
+                <button class="bg-[#41ff6b1a] w-[123px] h-[50px] flex justify-center items-center gap-3 rounded-[50px]"><span class="inter-font font-black ">0</span> <img src="./assets/heart.png" class="w-[24px] h-[24px]" alt=""> </button>
+                <button class="bg-[#41ff6b1a] w-[123px] h-[50px] flex justify-center items-center gap-3 rounded-[50px]"><span class="inter-font font-black ">100</span> <img src="./assets/coin.png" class="w-[24px] h-[24px]" alt=""></button>
+                <button class="bg-[#00a63e] w-[123px] h-[50px] flex justify-center items-center gap-1 rounded-[50px] inter-font font-semibold text-white"><span>0</span>Copy</button>
             </div>
         </nav>
-        <section class="banner"></section>
+        <section class="banner py-[20px] bg-gradient-to-r from-[#01271c] via-[#006747E6] to-[#01271c] text-center mx-auto mt-[15px]">
+            <img src="./assets/logo-dark.png" class="w-[92px] h-[92px] mx-auto" alt="">
+            <h1 class="hind-madurai-bold text-[40px] text-white" >Emergency Service Directory</h1>
+            <p class="hind-madurai-semibold text-[20px] text-white">Government Emergency Services at Your Fingertip – A Project by  Government of the People’s Republic of Bangladesh</p>
+        </section>
     </header>
 </body>
 </html>
